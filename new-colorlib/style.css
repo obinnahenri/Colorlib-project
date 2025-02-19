@@ -1,0 +1,35 @@
+/*HEADER*/
+.header-container {
+  background: rgb(255, 0, 0);
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.header-left {
+  color: #f5efef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-img {
+  height: 40px;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.video-mag {
+  font-size: 50px;
+  font-weight: 600;
+}
+.header-right {
+  background: url(../new-colorlib/img/abstract-digital-grid-black-background.jpg);
+  height: 90px;
+  width: 50%;
+  color: #f5efef;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+}
