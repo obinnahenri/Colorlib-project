@@ -1,53 +1,52 @@
 * {
   margin: 0;
+  padding: 0;
+  box-shadow: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 /*HEADER*/
-.header-container {
-  background: rgb(255, 0, 0);
-  height: 150px;
+.header-top {
+  background: rgb(255, 22, 98);
+  height: 155px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-left: 50px;
   padding-right: 50px;
 }
+.img-left {
+  height: 40px;
+}
 .header-left {
-  color: #f5efef;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.header-img {
-  height: 40px;
-  border-radius: 20px;
-  margin-right: 10px;
-}
-.video-mag {
-  font-size: 50px;
-  font-weight: 600;
+.img-right {
+  width: 100%;
+  height: 100px;
 }
 .header-right {
-  background: url(../new-colorlib/img/abstract-digital-grid-black-background.jpg);
-  height: 90px;
-  width: 50%;
-  color: #f5efef;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: cover;
 }
 /*NAVBAR*/
-.nav-bar {
+.header-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 110px;
   background-color: black;
   color: #ccc;
-  padding-right: 50px;
+  padding-right: 70px;
+  padding-left: 70px;
   font-size: 20px;
-  font-weight: 500;
+  font-weight: 400;
   margin-bottom: 10px;
+  border-top: 1px solid rgb(255, 255, 255);
 }
 .nav-list ul li {
   display: inline-flex;
@@ -56,8 +55,8 @@
 }
 ul li {
   height: 100px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
   display: flex;
 }
 ul li:hover {
@@ -67,21 +66,21 @@ ul li:hover {
 .search-img {
   height: 20px;
 }
-input {
-  height: 30px;
+.input-nav input {
+  height: 40px;
   width: 300px;
   background-color: #888686;
   border: none;
-  border-radius: 3px;
   padding-left: 20px;
+  outline: none;
 }
 .input-nav {
   position: relative;
 }
 .search-img {
   position: absolute;
-  right: 5px;
-  top: 5px;
+  right: 10px;
+  top: 10px;
 }
 .home {
   background-color: rgb(233, 29, 73);
@@ -102,7 +101,6 @@ input {
   background-size: cover;
   color: white;
   position: relative;
-  -webkit-backdrop-filter: blur(8px);
 }
 .grid-right {
   display: grid;
